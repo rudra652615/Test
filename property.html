@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Legal Property Consultancy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{font-family:Arial;margin:0;background:#eef2f7}
+header{background:#0b3d91;color:white;text-align:center;padding:10px}
+header img{max-width:100%}
+nav{background:#111;padding:10px;text-align:center}
+nav a{color:white;margin:10px;text-decoration:none;font-weight:bold}
+section{padding:20px}
+.card{background:white;padding:15px;margin:10px;border-radius:10px;box-shadow:0 0 8px gray}
+
+.services,.owners,.gallery,.listings{display:flex;flex-wrap:wrap;justify-content:center}
+.services .card,.owners .card,.listings .card{flex:1 1 250px}
+.gallery img{width:100%;max-width:250px;margin:10px;border-radius:10px}
+
+form input,form textarea{width:100%;padding:10px;margin:5px}
+form button{padding:10px;background:#0b3d91;color:white;border:none}
+
+.buttons{position:fixed;bottom:15px;right:15px}
+.btn{display:block;margin:5px;padding:12px;color:white;text-decoration:none;border-radius:6px}
+.call{background:green}
+.whatsapp{background:#25D366}
+
+footer{background:#111;color:white;text-align:center;padding:10px}
+
+@media(max-width:600px){
+nav a{display:block}
+}
+</style>
+</head>
+<body>
+
+<header>
+<img src="banner.jpg">
+<h1>LEGAL PROPERTY CONSULTANCY</h1>
+<p>Renting | Sale Purchase | Renovation | Local Liaisoning | Legal Consultancy</p>
+</header>
+
+<nav>
+<a href="#services">Services</a>
+<a href="#listings">Properties</a>
+<a href="#owners">Owners</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+<h2>Services</h2>
+<div class="services">
+<div class="card">Renting</div>
+<div class="card">Sale & Purchase</div>
+<div class="card">Renovation</div>
+<div class="card">Local Liaisoning</div>
+<div class="card">Legal Consultancy</div>
+</div>
+</section>
+
+<section id="listings">
+<h2>Available Properties</h2>
+<div class="listings">
+<div class="card">
+<img src="house1.jpg" width="100%">
+<h3>House for Sale</h3>
+<p>Delhi</p>
+</div>
+<div class="card">
+<img src="house2.jpg" width="100%">
+<h3>Flat for Rent</h3>
+<p>Gurgaon</p>
+</div>
+<div class="card">
+<img src="house3.jpg" width="100%">
+<h3>Shop Available</h3>
+<p>Noida</p>
+</div>
+</div>
+</section>
+
+<section id="owners">
+<h2>Owners</h2>
+<div class="owners">
+<div class="card">
+<h3>Dinesh Kumar</h3>
+<p>Ex Indian Navy / Estate Officer DPS / Indigo Airlines</p>
+<p>9459030002</p>
+</div>
+<div class="card">
+<h3>Rajkumar</h3>
+<p>Advocate, Retired ACP Delhi Police</p>
+<p>9810255866</p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Send Inquiry</h2>
+<form>
+<input placeholder="Name">
+<input placeholder="Phone">
+<textarea placeholder="Message"></textarea>
+<button>Send</button>
+</form>
+</section>
+
+<div class="buttons">
+<a class="btn call" href="tel:9459030002">Call</a>
+<a class="btn whatsapp" href="https://wa.me/919459030002">WhatsApp</a>
+</div>
+
+<footer>
+<p>Legal Property Consultancy © 2026</p>
+</footer>
+
+</body>
+</html>
